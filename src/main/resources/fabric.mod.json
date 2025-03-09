@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "calculator",
+	"version": "${version}",
+	"name": "Calculator",
+	"description": "A mod that does simple math calculations in-game for you!",
+	"authors": [
+		"ShadowedLeaves"
+	],
+	"contact": {
+		"sources": "https://github.com/Fethercat/Calculator"
+	},
+	"license": "MIT",
+	"icon": "assets/calculator/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"shadowedleaves.calculator.Calculator"
+		],
+		"client": [
+			"shadowedleaves.calculator.CalculatorClient"
+		]
+	},
+	"mixins": [
+		"calculator.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
