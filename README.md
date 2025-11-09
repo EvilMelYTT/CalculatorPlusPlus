@@ -8,7 +8,7 @@ This mod adds a /math command that can solve simple math equations in-game!
 
 - 1.20.4
 
-**This mod will be updated to 1.21 soon!**
+**Support for this project has been discontinued.**
 
 ---
 
@@ -22,11 +22,9 @@ Operations:
 
 "-", "minus", "subtract"
 
-"*", "times", "multiply"
+"times", "multiply"
 
-"/", "dividedby", "divide"
-
-**"*" and "/" may not work because of Minecraft!**
+"dividedby", "divide"
 
 ---
 
@@ -34,7 +32,7 @@ Operations:
 
 Discord: shadowedleaves_
 
-Feel free to message me to ask a question or suggest a new feature!
+~~Feel free to message me to ask a question or suggest a new feature!~~
 
 ---
 
