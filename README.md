@@ -6,9 +6,13 @@ This mod adds a /math command that can solve simple math equations in-game!
 
 ### Supported Versions
 
+- 26.1.x
+
+- 1.21.11
+
 - 1.20.4
 
-**Support for this project has been discontinued.**
+**Support for this project will be reinstated for as long as I remember it exists.**
 
 ---
 
