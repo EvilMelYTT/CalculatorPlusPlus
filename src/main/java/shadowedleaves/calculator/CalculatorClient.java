@@ -7,8 +7,8 @@ import com.mojang.brigadier.builder.RequiredArgumentBuilder;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.text.Text;
+import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.Component;
 
 import static com.mojang.brigadier.Command.SINGLE_SUCCESS;
 
@@ -53,7 +53,7 @@ public class CalculatorClient implements ClientModInitializer {
 														message = "Invalid operation!";
 												}
 
-												MinecraftClient.getInstance().player.sendMessage(Text.literal(message), false);
+												Minecraft.getInstance().player.sendSystemMessage(Component.literal(message));
 												return SINGLE_SUCCESS;
 											})
 									)

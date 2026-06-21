@@ -11,6 +11,6 @@ public class Calculator implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("[Calculator] Initializing Calculator Mod!");
+		LOGGER.info("[Calculator++] Initializing Calculator Mod!");
 	}
 }
