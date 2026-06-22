@@ -7,7 +7,7 @@
 >
 > - **1.21.11** — Migrated by changing `fabric.mod.json`
 > - **26.x** — Migrated using `./gradlew migrateMappings`
-> - **Both versions** — Reviewed by **Gemini 3.5 Flash**
+> - **Both versions** — Reviewed by **Gemini 3.5 Flash** (including fixing a startup crash with C2ME/Mixins)
 >
 > Porting done with direct consent from ShadowedLeaves/MysticIvy
 
